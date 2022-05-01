@@ -4,4 +4,4 @@
 
 2. [lab 2](https://github.com/khelifanasir/cs-445-lab-solns/tree/main/lab2/src)
 
-3. lab 3
+3. [lab 3](https://github.com/khelifanasir/cs-445-lab-solns/tree/main/lab3)
