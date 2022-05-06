@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="firstImage">
+       <img id="image1"  style="width: 200px; height: 200px;"  src="/photos/sunset.jpeg" alt="sunset">
+    </div>
+    <div id="secondImage">
+        <img id="image2" style="width: 200px; height: 200px;" src="/photos/trees.jpeg" alt="trees">
+    </div>
+    <button id="btn">swap</button>
+
+    <script>
+        let div1 = document.getElementById("firstImage");
+        let div2 = document.getElementById("secondImage");
+        let btn = document.getElementById("btn");
+        btn.onclick =  function swap (){
+           let div1BeforeSwaped = div1.innerHTML;
+            div1.innerHTML =  div2.innerHTML;
+            div2.innerHTML = div1BeforeSwaped;
+            
+        }
+       
+    </script>
+</body>
+</html>

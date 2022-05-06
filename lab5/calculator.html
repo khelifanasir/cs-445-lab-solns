@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="ipt1" type="number" value="">
+    <input id="ipt2" type="number" value="">
+    <input id="ipt3" type="text" value="" placeholder="sum or substract result">
+    <label><button id="addbtn" >+</button><button id="subbtn" >-</button></label>
+    <button id="submitbtn"> submit</button>
+
+    <script>
+  let input1 = document.getElementById("ipt1");
+  let input2 = document.getElementById("ipt2");
+  let input3 = document.getElementById("ipt3");
+  let btn = document.getElementById("submitbtn");
+  let addbtn = document.getElementById("addbtn");
+  let subbtn = document.getElementById("subbtn");
+  addbtn.onclick = add
+  subbtn.onclick = sub
+  function add(){ 
+      input3.value = "";
+    btn.onclick = () => input3.value = Number(input1.value) + Number(input2.value)
+ }
+  
+  function sub(){
+      input3.value = "";
+  btn.onclick = () => input3.value = Number(input1.value) - Number(input2.value)
+}
+  
+
+  
+    </script>
+</body>
+</html>
