@@ -10,11 +10,7 @@ class Subject {
         if(!this.observers[event]){
             this.observers[event] = [fn]
         } else {
-        for(let key in this.observers){
-            if (key == event){
-                this.observers[key].push(fn)
-            } 
-        }
+                this.observers[event].push(fn)        
     }
       
     }

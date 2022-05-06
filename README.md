@@ -7,3 +7,5 @@
 3. [lab 3](https://github.com/khelifanasir/cs-445-lab-solns/tree/main/lab3)
 
 4. [lab 4](https://github.com/khelifanasir/cs-445-lab-solns/tree/main/lab4)
+
+5. [lab 5](https://github.com/khelifanasir/cs-445-lab-solns/tree/main/lab5)

@@ -4,9 +4,10 @@ const shoppingCart = (function(){
     let basket = []
     return {
         upsertItem(item){
-            for (let i=0; i < basket.length; i++){
-                if (basket[i].id == item.id){
-                    basket[i] = item
+           
+            for (let each of basket){
+                if (each.id == item.id){
+                    each = item
                 }
             }
             if (!basket.includes(item)){
@@ -23,18 +24,15 @@ const shoppingCart = (function(){
           },
 
         getTotalPrice() {
-            let totalPrice = basket.reduce((previous, current) =>
-            previous + (current.product.price * current.count) 
+            return basket.reduce((previous, current) =>
+            previous + current.product.price * current.count 
         ,0)
-        return totalPrice
+       
         },
         removeItemById(id){
-            basket = basket.filter(function(item){
-                 if(item.id !=id ){ 
-                 return item}
-                })
+            basket = basket.filter(item => item.id !=id)
         }
-    
+       
         
     }
 })()

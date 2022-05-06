@@ -16,5 +16,9 @@ if (result[n]){
     }
 })()
 
+console.log(fibonacci(8))
+console.log(fibonacci(8))
+
+
 
 

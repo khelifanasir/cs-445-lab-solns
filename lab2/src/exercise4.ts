@@ -9,7 +9,7 @@ let baseObject : baseObject1= {
 	width: 0, 
 	length: 0 
 }; 
-let rectangle: typeof baseObject = Object.create(baseObject); 
+let rectangle: baseObject1 = Object.create(baseObject); 
 
 rectangle.width = 5; 
 rectangle.length = 2; 
