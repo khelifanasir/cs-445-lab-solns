@@ -28,21 +28,25 @@
   divbtn.onclick = division
   function add(){ 
       input3.value = "";
-    btn.onclick = () => input3.value = Number(input1.value) + Number(input2.value)
+      let result = Number(input1.value) + Number(input2.value)
+    btn.onclick = () => input3.value = result
  }
   
   function sub(){
       input3.value = "";
-  btn.onclick = () => input3.value = Number(input1.value) - Number(input2.value)
+      let result = Number(input1.value) - Number(input2.value)
+  btn.onclick = () => input3.value = result
 }
 function mult(){
       input3.value = "";
-  btn.onclick = () => input3.value = Number(input1.value) * Number(input2.value)
+      let result = Number(input1.value) * Number(input2.value)
+  btn.onclick = () => input3.value = result
 }
   
 function division(){
       input3.value = "";
-  btn.onclick = () => input3.value = Number(input1.value) / Number(input2.value)
+      let result = Number(input1.value) / Number(input2.value)
+  btn.onclick = () => input3.value = result
 }  
     </script>
 </body>
