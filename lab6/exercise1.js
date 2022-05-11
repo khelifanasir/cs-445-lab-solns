@@ -26,23 +26,23 @@ console.log('end');
 // { prime: true }
 
 
-// const isPrime = function(num){
-//   return  new Promise((resolve,reject) =>
-//         setTimeout(function(){
-//             for (let i=2; i < num; i++){
-//                 if (num % i == 0){
-//                    reject({prime: false})
-//             } else {
-//                resolve({prime: true})
+const isPrime = function(num){
+  return  new Promise((resolve,reject) =>
+        setTimeout(function(){
+            for (let i=2; i < num; i++){
+                if (num % i == 0){
+                   reject({prime: false})
+            } else {
+               resolve({prime: true})
            
-//             }
+            }
          
-//         }},500))   
-// }
+        }},500))   
+}
 
-// console.log('start');
-// isPrime(7)
-//     .then(res => console.log(res))
-//     .catch(err => console.error(err));
-// console.log('end');
+console.log('start');
+isPrime(7)
+    .then(res => console.log(res))
+    .catch(err => console.error(err));
+console.log('end');
 
