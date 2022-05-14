@@ -13,3 +13,5 @@
 6. [lab 6](https://github.com/khelifanasir/cs-445-lab-solns/tree/main/lab6)
 
 7. [lab 7](https://github.com/khelifanasir/cs-445-lab-solns/tree/main/lab7)
+
+8. [lab 8](https://github.com/khelifanasir/cs-445-lab-solns/tree/main/lab8)
