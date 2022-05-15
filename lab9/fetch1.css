@@ -1,0 +1,29 @@
+body {
+    padding: 50px;
+}
+
+
+
+p {
+    padding: 20px;
+    background-color: aliceblue;
+    width: 300px;
+}
+
+button {
+    background-color: green;
+}
+
+
+div li {
+    text-decoration: none;
+}
+
+li span {
+    text-size-adjust: 13;
+    color: brown;
+}
+
+li {
+    text-decoration: none;
+}
